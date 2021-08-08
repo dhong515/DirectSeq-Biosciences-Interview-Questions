@@ -6,7 +6,7 @@ connect = client.connect(('127.0.0.1', 19999)) #Binding the port number and the 
 
 #If the connection to the server was successful, return a success message. 
 if(connect != -1):
-    print("\nClient 1 has successfully connected with server! \nPress CTRL + 'C' to disconnect at any time. \n")
+    print("\nClient has successfully connected with server! \nPress CTRL + 'C' to disconnect at any time. \n")
 
 while True:
 
