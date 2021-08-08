@@ -32,17 +32,17 @@ while True:
             for j in range(i+1, n):
                 diff = abs(data1[j] - data1[i])
                 if abs(329.0525 - diff) <= 1e-6:
-                    abc = [data1[i], data1[j], 'A']
-                    ls.append(abc)
+                    basecalling = [data1[i], data1[j], 'A']
+                    ls.append(basecalling)
                 if abs(305.0413 - diff) <= 1e-6:
-                    abc = [data1[i], data1[j], 'C']
-                    ls.append(abc)
+                    basecalling = [data1[i], data1[j], 'C']
+                    ls.append(basecalling)
                 if abs(345.0474 - diff) <= 1e-6:
-                    abc = [data1[i], data1[j], 'G']
-                    ls.append(abc)
+                    basecalling = [data1[i], data1[j], 'G']
+                    ls.append(basecalling)
                 if abs(306.0253 - diff) <= 1e-6:
-                    abc = [data1[i], data1[j], 'U']
-                    ls.append(abc)
+                    basecalling = [data1[i], data1[j], 'U']
+                    ls.append(basecalling)
 
         #Encoding the basecallings data and sending them back to the client
         L = str(ls)
